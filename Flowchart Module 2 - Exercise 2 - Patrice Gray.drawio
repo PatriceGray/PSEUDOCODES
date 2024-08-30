@@ -1,0 +1,85 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="I3qGzYoG8t6j33b6lt1R">
+    <mxGraphModel dx="1354" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1aRwWKuTumQsX0ZXAf1v-1" target="1aRwWKuTumQsX0ZXAf1v-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-1" value="&lt;div&gt;&amp;nbsp;Start&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1aRwWKuTumQsX0ZXAf1v-2" target="1aRwWKuTumQsX0ZXAf1v-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-2" value="&lt;div&gt;Input numHours&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="110" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1aRwWKuTumQsX0ZXAf1v-4" target="1aRwWKuTumQsX0ZXAf1v-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-4" value="&lt;div&gt;Input wholesaleCost&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="240" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1aRwWKuTumQsX0ZXAf1v-6" target="1aRwWKuTumQsX0ZXAf1v-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-6" value="LaborCostPerHour" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1aRwWKuTumQsX0ZXAf1v-8" target="1aRwWKuTumQsX0ZXAf1v-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-8" value="&lt;div&gt;materialCost = wholesaleCost * materialMarkup&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1aRwWKuTumQsX0ZXAf1v-10" target="1aRwWKuTumQsX0ZXAf1v-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-10" value="&lt;div&gt;totalCost = laborCost + materialCost&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1aRwWKuTumQsX0ZXAf1v-16" target="1aRwWKuTumQsX0ZXAf1v-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-16" value="Display &quot;Projected number of hours: &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="560" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1aRwWKuTumQsX0ZXAf1v-18" target="1aRwWKuTumQsX0ZXAf1v-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-18" value="&lt;div&gt;Display &quot;Wholesale cost of materials: $&quot; + wholesaleCost&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="680" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1aRwWKuTumQsX0ZXAf1v-20" target="1aRwWKuTumQsX0ZXAf1v-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-20" value="&lt;div&gt;Label: Display &quot;Total labor cost: $&quot; + laborCost&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="820" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1aRwWKuTumQsX0ZXAf1v-22" target="1aRwWKuTumQsX0ZXAf1v-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-22" value="&lt;div&gt;&amp;nbsp;Display &quot;Total material cost (with markup): $&quot; + materialCost&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="815" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1aRwWKuTumQsX0ZXAf1v-24" target="1aRwWKuTumQsX0ZXAf1v-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-24" value="&lt;div&gt;Display &quot;Total cost of the job: $&quot; + totalCost&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="960" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1aRwWKuTumQsX0ZXAf1v-26" target="1aRwWKuTumQsX0ZXAf1v-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-26" value="Display &quot;End of program&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="1070" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1aRwWKuTumQsX0ZXAf1v-28" value="&amp;nbsp;End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="1200" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
